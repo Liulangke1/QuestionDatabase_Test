@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practise.ThinkingVirtue.ThinkingVirtueMainActivity">
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+    <Button
+        android:id="@+id/ThinkingVirtueChapterFirst_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/ThinkingVirtueChapterFirst" />
+
+    <Button
+        android:id="@+id/ThinkingVirtueChapterSecond_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ThinkingVirtueChapterFirst_btn"
+        android:text="@string/ThinkingVirtueChapterSecond"/>
+
+    <Button
+        android:id="@+id/ThinkingVirtueChapterThird_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ThinkingVirtueChapterSecond_btn"
+        android:text="@string/ThinkingVirtueChapterThird"/>
+
+    <Button
+        android:id="@+id/ThinkingVirtueChapterFourth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ThinkingVirtueChapterThird_btn"
+        android:text="@string/ThinkingVirtueChapterFourth"/>
+
+    <Button
+        android:id="@+id/ThinkingVirtueChapterFifth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ThinkingVirtueChapterFourth_btn"
+        android:text="@string/ThinkingVirtueChapterFifth"/>
+
+    <Button
+        android:id="@+id/ThinkingVirtueChapterSixth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ThinkingVirtueChapterFifth_btn"
+        android:text="@string/ThinkingVirtueChapterSixth"/>
+
+    <Button
+        android:id="@+id/ThinkingVirtueChapterSeventh_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ThinkingVirtueChapterSixth_btn"
+        android:text="@string/ThinkingVirtueChapterSeventh"/>
+
+
+    <Button
+        android:id="@+id/ThinkingVirtueSummary_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ThinkingVirtueChapterSeventh_btn"
+        android:text="@string/ThinkingVirtueSummary"/>
+
+<!--    </RelativeLayout>-->
+
+</RelativeLayout>

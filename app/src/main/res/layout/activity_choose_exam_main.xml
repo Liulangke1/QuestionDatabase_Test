@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exam.ChooseExamMainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/LvYou_exam_button"
+                android:text="@string/LvYouQuestion"
+                android:width="1dip"/>
+
+            <Button
+                android:id="@+id/History_exam_button"
+                android:width="1dip"
+                android:text="@string/HistoryQuestion"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/ThinkingVirtue_exam_button"
+                android:text="@string/ThinkingVirtue"
+                android:width="1dip"/>
+            <Button
+                android:id="@+id/MaYuan_exam_button"
+                android:width="1dip"
+                android:text="@string/MaYuanQuestion"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/MaoGai_exam_button"
+                android:text="@string/MaoGaiQuestion"
+                android:width="1dip"/>
+            <Button
+                android:id="@+id/NetworkSecurity_exam_button"
+                android:width="1dip"
+                android:text="@string/NetworkSecurity"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Computer_second_exam_buttont"
+                android:layout_height="match_parent"
+                android:width="1dip"
+
+                android:text="@string/ComputerQuestion" />
+
+            <Button
+                android:id="@+id/test3_btn"
+                android:width="1dip"
+                android:layout_height="match_parent"
+                android:text="@string/Computer_Question_Web" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

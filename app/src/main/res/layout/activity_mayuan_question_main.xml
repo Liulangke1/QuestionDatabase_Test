@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/MaYuanChapterFirst_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/MaYuanChapterFirst" />
+
+    <Button
+        android:id="@+id/MaYuanChapterSecond_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MaYuanChapterFirst_btn"
+        android:text="@string/MaYuanChapterSecond"/>
+
+    <Button
+        android:id="@+id/MaYuanChapterThird_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/MaYuanChapterSecond_btn"
+        android:text="@string/MaYuanChapterThird"/>
+
+    <Button
+        android:id="@+id/MaYuanChapterFourth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/MaYuanChapterThird_btn"
+        android:text="@string/MaYuanChapterFourth"/>
+
+    <Button
+        android:id="@+id/MaYuanChapterFifth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/MaYuanChapterFourth_btn"
+        android:text="@string/MaYuanChapterFifth"/>
+
+    <Button
+        android:id="@+id/MaYuanChapterSixth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/MaYuanChapterFifth_btn"
+        android:text="@string/MaYuanChapterSixth"/>
+
+    <Button
+        android:id="@+id/MaYuanChapterSeventh_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/MaYuanChapterSixth_btn"
+        android:text="@string/MaYuanChapterSeventh"/>
+
+    <Button
+        android:id="@+id/MaYuanSummary_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/MaYuanChapterSeventh_btn"
+        android:text="@string/MaYuanSummary"/>
+
+
+</RelativeLayout>

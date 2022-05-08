@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zjxu.cc.questiondatabase">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:preserveLegacyExternalStorage="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuestionDatabase">
+        <activity
+            android:name=".add.HandleActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="ScopedStorage"
+            android:value="true" /> <!-- 旅游 -->
+        <activity
+            android:name=".Practise.LvYouQuestion.LvYouMainActivity"
+            android:exported="true"
+            android:label="@string/LvYouQuestion"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.LvYouQuestion.LvYouCollectionActivity"
+            android:exported="true"
+            android:label="旅游题库--收藏"
+            android:parentActivityName=".CollectionActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" /> <!-- 现代史 -->
+        <activity
+            android:name=".Practise.HistoryQuestion.HistoryMainActivity"
+            android:exported="true"
+            android:label="@string/HistoryQuestion"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.HistoryQuestion.HistoryCollectionActivity"
+            android:exported="true"
+            android:label="现代史题库--收藏"
+            android:parentActivityName=".CollectionActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" /> <!-- 思政 -->
+        <activity
+            android:name=".Practise.ThinkingVirtue.ThinkingVirtueMainActivity"
+            android:exported="true"
+            android:label="@string/ThinkingVirtue"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.ThinkingVirtue.ThinkingVirtueSummary"
+            android:exported="true"
+            android:label="@string/ThinkingVirtueSummary"
+            android:parentActivityName=".Practise.ThinkingVirtue.ThinkingVirtueMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.ThinkingVirtue.ThinkingVirtueCollectionActivity"
+            android:exported="true"
+            android:label="思政题库--收藏"
+            android:parentActivityName=".CollectionActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" /> <!-- 毛概题库 -->
+        <activity
+            android:name=".Practise.MaoGaiQuestion.MaoGaiMainActivity"
+            android:exported="true"
+            android:label="@string/MaoGaiQuestion"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.MaoGaiQuestion.MaoGaiSummary"
+            android:exported="true"
+            android:label="@string/MaoGaiSummary"
+            android:parentActivityName=".Practise.MaoGaiQuestion.MaoGaiMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.MaoGaiQuestion.MaoGaiChapterFirst"
+            android:exported="true"
+            android:label="@string/MaoGaiChapterFirst"
+            android:parentActivityName=".Practise.MaoGaiQuestion.MaoGaiMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.MaoGaiQuestion.MaoGaiCollectionActivity"
+            android:exported="true"
+            android:label="毛概题库--收藏"
+            android:parentActivityName=".CollectionActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" /> <!-- 网络安全 -->
+        <activity
+            android:name=".Practise.Network_Security.NetworkSecurityMainActivity"
+            android:exported="true"
+            android:label="@string/NetworkSecurity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.Network_Security.NetworkSecuritySummary"
+            android:exported="true"
+            android:label="@string/NetworkSecuritySummary"
+            android:parentActivityName=".Practise.Network_Security.NetworkSecurityMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.Network_Security.NetworkSecurityCollectionActivity"
+            android:exported="true"
+            android:label="网络安全题库--收藏"
+            android:parentActivityName=".CollectionActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" /> <!-- 马原题库 -->
+        <activity
+            android:name=".Practise.MaYuanQuestion.MayuanMainActivity"
+            android:exported="true"
+            android:label="@string/MaYuanQuestion"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanSummary"
+            android:exported="true"
+            android:label="@string/MaYuanSummary"
+            android:parentActivityName=".Practise.MaYuanQuestion.MayuanMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanChapterFirst"
+            android:exported="true"
+            android:label="@string/MaYuanChapterFirst"
+            android:parentActivityName=".Practise.MaYuanQuestion.MayuanMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanCollectionActivity"
+            android:exported="true"
+            android:label="马原题库--收藏"
+            android:parentActivityName=".CollectionActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanChapterSecond"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanChapterThird"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanChapterFourth"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanChapterFifth"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanChapterSixth"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Practise.MaYuanQuestion.MaYuanChapterSeventh"
+            android:exported="true"
+            tools:ignore="Instantiatable" /> <!-- 计算机等级题库 -->
+        <activity
+            android:name=".Practise.ComputerQuestionDataBase.ComputerQuestionMainActivity"
+            android:exported="true"
+            android:label="@string/ComputerQuestion"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" /> <!-- 测试 -->
+        <activity
+            android:name=".Exam.ChooseExamMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Exam.ExamActivity"
+            android:exported="true"
+            android:label="测试"
+            android:parentActivityName=".Exam.ExamMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".Exam.ExamMainActivity"
+            android:exported="true"
+            android:label="选择测试题目"
+            android:parentActivityName=".Exam.ChooseExamMainActivity"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+        <activity
+            android:name=".CollectionActivity"
+            android:exported="true"
+            android:label="收藏夹"
+            android:theme="@style/Widget.AppCompat.ActionBar"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity android:name=".Permission.PermissionActivity" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateAlwaysHidden">
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

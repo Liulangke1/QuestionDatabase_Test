@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base application theme.-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#202632</item>
+        <item name="colorPrimaryDark">#12151C</item>
+        <item name="colorAccent">#05EEFF</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- EditText正常底线颜色-->
+        <item name="colorControlNormal">#ffffff</item>
+        <!--EditText选择中时底线颜色-->
+        <item name="colorControlActivated">#05EEFF</item>
+    </style>
+
+    <!--Base Button theme-->
+    <style name="MainRadioButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+</resources>

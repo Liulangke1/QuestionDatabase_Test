@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/MaoGaiChapterFirst_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/MaoGaiChapterFirst" />
+
+        <Button
+            android:id="@+id/MaoGaiChapterSecond_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/MaoGaiChapterFirst_btn"
+            android:text="@string/MaoGaiChapterSecond"/>
+
+        <Button
+            android:id="@+id/MaoGaiChapterThird_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/MaoGaiChapterSecond_btn"
+            android:text="@string/MaoGaiChapterThird"/>
+
+        <Button
+            android:id="@+id/MaoGaiChapterFourth_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/MaoGaiChapterThird_btn"
+            android:text="@string/MaoGaiChapterFourth"/>
+
+        <Button
+            android:id="@+id/MaoGaiChapterFifth_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/MaoGaiChapterFourth_btn"
+            android:text="@string/MaoGaiChapterFifth"/>
+
+        <Button
+            android:id="@+id/MaoGaiChapterSixth_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/MaoGaiChapterFifth_btn"
+            android:text="@string/MaoGaiChapterSixth"/>
+
+        <Button
+            android:id="@+id/MaoGaiChapterSeventh_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/MaoGaiChapterSixth_btn"
+            android:text="@string/MaoGaiChapterSeventh"/>
+
+
+        <Button
+            android:id="@+id/MaoGaiSummary_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/MaoGaiChapterSeventh_btn"
+            android:text="@string/MaoGaiSummary"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

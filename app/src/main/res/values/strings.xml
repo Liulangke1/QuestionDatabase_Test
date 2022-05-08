@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">QuestionDatabase</string>
+
+    <!--授权-->
+    <string name="common_permission_hint">授权提示</string>
+    <string name="common_permission_message">使用此功能需要先授予权限</string>
+    <string name="common_permission_granted">授予</string>
+    <string name="common_permission_denied">取消</string>
+    <string name="common_permission_alert">授权提醒</string>
+    <string name="common_permission_fail_1">授权失败，请正确授予权限</string>
+    <string name="common_permission_fail_2">获取权限失败，请手动授予权限</string>
+    <string name="common_permission_fail_3">获取权限失败，请手动授予%s</string>
+    <string name="common_permission_goto">前往授权</string>
+    <string name="common_permission_storage">存储权限</string>
+    <string name="common_permission_window">悬浮窗权限</string>
+    <string name="common_permission_setting">系统设置权限</string>
+    <string name="common_permission_notification">通知栏权限</string>
+    <string name="common_permission_task">查看使用情况权限</string>
+
+    <!--通用-->
+    <string name="QuestionNumber">当前题目数量：</string>
+    <string name="Question">考题</string>
+    <string name="ChoiceA">选项A</string>
+    <string name="ChoiceB">选项B</string>
+    <string name="ChoiceC">选项C</string>
+    <string name="ChoiceD">选项D</string>
+    <string name="MutiChoiceA">多选A</string>
+    <string name="MutiChoiceB">多选B</string>
+    <string name="MutiChoiceC">多选C</string>
+    <string name="MutiChoiceD">多选D</string>
+    <string name="Collection">收藏</string>
+    <string name="LookAnswer">查看答案</string>
+
+    <!--计算机等级考试题库-->
+    <string name="ComputerQuestion">计算机等级二级题库</string>
+    <string name="Computer_Question_C">计算机等级考试二级C语言程序设计</string>
+    <string name="Computer_Question_Java">计算机等级考试二级java语言程序设计</string>
+    <string name="Computer_Question_Python">计算机等级考试二级Python语言程序设计</string>
+    <string name="Computer_Question_MS_Office">计算机等级考试二级MS Office高级应用</string>
+    <string name="Computer_Question_VB">计算机等级考试二级VB语言程序设计</string>
+    <string name="Computer_Question_Access">计算机等级考试二级Access数据库程序设计</string>
+    <string name="Computer_Question_C__">计算机等级考试二级C++语言程序设计</string>
+    <string name="Computer_Question_MySQL">计算机等级考试二级MySQL数据库程序设计</string>
+    <string name="Computer_Question_Web">计算机等级考试二级Web程序设计</string>
+
+    <!--马原题库-->
+    <string name="MaYuanQuestion">马原题库</string>
+    <string name="MaYuanChapterFirst">第一章 世界的物质性及其发展规律</string>
+    <string name="MaYuanChapterSecond">第二章 实践与认识及其发展规律</string>
+    <string name="MaYuanChapterThird">第三章 人类社会及其发展规律</string>
+    <string name="MaYuanChapterFourth">第四章 资本主义的本质及规律</string>
+    <string name="MaYuanChapterFifth">第五章 资本主义的发展及趋势</string>
+    <string name="MaYuanChapterSixth">第六章 社会主义社会的发展及其规律</string>
+    <string name="MaYuanChapterSeventh">第七章 共产主义崇高理想及其最终实现</string>
+    <string name="MaYuanSummary">总复习</string>
+    <!--    <string name="test">题目</string>-->
+
+
+    <!--旅游题库-->
+    <string name="LvYouQuestion">旅游题库</string>
+
+
+    <!--毛概题库-->
+    <string name="MaoGaiQuestion">毛概题库</string>
+    <string name="MaoGaiChapterFirst">第一章</string>
+    <string name="MaoGaiChapterSecond">第二章</string>
+    <string name="MaoGaiChapterThird">第三章</string>
+    <string name="MaoGaiChapterFourth">第四章</string>
+    <string name="MaoGaiChapterFifth">第五章</string>
+    <string name="MaoGaiChapterSixth">第六章</string>
+    <string name="MaoGaiChapterSeventh">第七章</string>
+    <string name="MaoGaiSummary">总复习</string>
+
+
+    <!--现代史-->
+    <string name="HistoryQuestion">现代史题库</string>
+
+
+    <!--思政-->
+    <string name="ThinkingVirtue">思政题库</string>
+    <string name="ThinkingVirtueChapterFirst">第一章</string>
+    <string name="ThinkingVirtueChapterSecond">第二章</string>
+    <string name="ThinkingVirtueChapterThird">第三章</string>
+    <string name="ThinkingVirtueChapterFourth">第四章</string>
+    <string name="ThinkingVirtueChapterFifth">第五章</string>
+    <string name="ThinkingVirtueChapterSixth">第六章</string>
+    <string name="ThinkingVirtueChapterSeventh">第七章</string>
+    <string name="ThinkingVirtueSummary">总复习</string>
+
+    <!--网络安全-->
+    <string name="NetworkSecurity">网络安全</string>
+    <string name="NetworkSecurityChapterFirst">第一章</string>
+    <string name="NetworkSecurityChapterSecond">第二章</string>
+    <string name="NetworkSecurityChapterThird">第三章</string>
+    <string name="NetworkSecurityChapterFourth">第四章</string>
+    <string name="NetworkSecurityChapterFifth">第五章</string>
+    <string name="NetworkSecurityChapterSixth">第六章</string>
+    <string name="NetworkSecurityChapterSeventh">第七章</string>
+    <string name="NetworkSecuritySummary">总复习</string>
+    <string name="Exam">测试</string>
+
+</resources>

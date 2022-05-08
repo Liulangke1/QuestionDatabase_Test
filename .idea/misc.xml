@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_choose_exam_main.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_collection_init.xml" value="0.72" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_computer_question_main.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_exam.xml" value="0.264" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_exammain.xml" value="0.4" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_handle.xml" value="0.1" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_history_main.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_init.xml" value="0.536" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_maogai_question_main.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_mayuan_question_main.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_network_security_main.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_splash.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/activity_thinking_virtue_main.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/fragment_exam.xml" value="0.1296875" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/fragment_mine.xml" value="0.264" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/fragment_practise.xml" value="0.264" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/init.xml" value="0.264" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/practises_collection.xml" value="0.536" />
+        <entry key="..\:/Android_Project/Android_Studio_Project/QuestionDatabase/app/src/main/res/layout/practises_common.xml" value="0.1296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

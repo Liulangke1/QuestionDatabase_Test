@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practise.Network_Security.NetworkSecurityMainActivity">
+
+    <Button
+        android:id="@+id/NetworkSecurityChapterFirst_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/NetworkSecurityChapterFirst"/>
+
+    <Button
+        android:id="@+id/NetworkSecurityChapterSecond_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/NetworkSecurityChapterFirst_btn"
+        android:text="@string/NetworkSecurityChapterSecond"/>
+
+    <Button
+        android:id="@+id/NetworkSecurityChapterThird_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/NetworkSecurityChapterSecond_btn"
+        android:text="@string/NetworkSecurityChapterThird"/>
+
+    <Button
+        android:id="@+id/NetworkSecurityChapterFourth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/NetworkSecurityChapterThird_btn"
+        android:text="@string/NetworkSecurityChapterFourth"/>
+
+    <Button
+        android:id="@+id/NetworkSecurityChapterFifth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/NetworkSecurityChapterFourth_btn"
+        android:text="@string/NetworkSecurityChapterFifth"/>
+
+    <Button
+        android:id="@+id/NetworkSecurityChapterSixth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/NetworkSecurityChapterFifth_btn"
+        android:text="@string/NetworkSecurityChapterSixth"/>
+
+    <Button
+        android:id="@+id/NetworkSecurityChapterSeventh_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/NetworkSecurityChapterSixth_btn"
+        android:text="@string/NetworkSecurityChapterSeventh"/>
+
+
+    <Button
+        android:id="@+id/NetworkSecuritySummary_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/NetworkSecurityChapterSeventh_btn"
+        android:text="@string/NetworkSecuritySummary"/>
+
+
+</RelativeLayout>

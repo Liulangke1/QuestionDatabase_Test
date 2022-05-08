@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adddata"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/excel_imagebutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/excel"/>
+
+    <ImageButton
+        android:id="@+id/database_imagebutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/database" />
+
+    <ImageButton
+        android:id="@+id/handle_imagebutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/database_imagebutton"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/handle" />
+
+    <ImageButton
+        android:id="@+id/word_imagebutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/word"/>
+
+    <ImageButton
+        android:id="@+id/Collection_imagebutton"
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/database_imagebutton"
+        android:src="@drawable/collectiontitle"/>
+
+</RelativeLayout>

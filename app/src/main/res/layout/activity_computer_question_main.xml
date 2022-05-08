@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComputerQuestionDataBase.ComputerQuestionMainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Question_C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/Computer_Question_C" />
+
+        <Button
+            android:id="@+id/Question_MS_Office"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Question_C"
+            android:text="@string/Computer_Question_MS_Office"/>
+
+        <Button
+            android:id="@+id/Question_python"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/Question_MS_Office"
+            android:text="@string/Computer_Question_Python"/>
+
+        <Button
+            android:id="@+id/Question_VB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/Question_python"
+            android:text="@string/Computer_Question_VB"/>
+
+        <Button
+            android:id="@+id/Question_Java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/Question_VB"
+            android:text="@string/Computer_Question_Java"/>
+
+        <Button
+            android:id="@+id/Question_Access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/Question_Java"
+            android:text="@string/Computer_Question_Access"/>
+
+        <Button
+            android:id="@+id/Question_C__"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/Question_Access"
+            android:text="@string/Computer_Question_C__"/>
+
+        <Button
+            android:id="@+id/Question_MySQL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/Question_C__"
+            android:text="@string/Computer_Question_MySQL"/>
+
+        <Button
+            android:id="@+id/Question_Web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/Question_MySQL"
+            android:text="@string/Computer_Question_Web"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

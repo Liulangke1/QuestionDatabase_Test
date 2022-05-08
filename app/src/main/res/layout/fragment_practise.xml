@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/examfirst"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="646dp"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/LuYou_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp"
+            android:text="@string/LvYouQuestion"/>
+
+        <Button
+            android:id="@+id/History_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LuYou_button"
+            android:layout_marginTop="7dp"
+            android:text="@string/HistoryQuestion" />
+
+        <Button
+            android:id="@+id/ThinkingVirtue_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/History_button"
+            android:layout_marginTop="7dp"
+            android:text="@string/ThinkingVirtue" />
+
+        <Button
+            android:id="@+id/MaoGai_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ThinkingVirtue_button"
+            android:layout_marginTop="7dp"
+            android:text="@string/MaoGaiQuestion" />
+
+        <Button
+            android:id="@+id/NetworkSecurity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MaoGai_button"
+            android:layout_marginTop="7dp"
+
+            android:text="@string/NetworkSecurity" />
+
+        <Button
+            android:id="@+id/MaYuan_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NetworkSecurity_button"
+            android:layout_marginTop="7dp"
+            android:text="@string/MaYuanQuestion" />
+
+        <Button
+            android:id="@+id/Computer_second_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MaYuan_button"
+            android:layout_marginTop="7dp"
+            android:text="@string/ComputerQuestion" />
+
+
+<!--        <Button-->
+<!--            android:id="@+id/Exam_button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/Computer_second_button"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:text="@string/Exam" />-->
+
+    </RelativeLayout>
+
+</LinearLayout>
